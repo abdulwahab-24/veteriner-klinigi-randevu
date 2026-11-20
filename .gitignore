@@ -1,0 +1,99 @@
+# ============================================
+# Visual Studio / ASP.NET Core / .NET 10
+# ============================================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]64/
+build/
+bld/
+[Oo]ut/
+artifacts/
+publish/
+*.publish.xml
+*.pubxml.user
+PublishScripts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# VS Code / Rider
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Logs
+logs/
+[Ll]ogs/
+*.log
+
+# Local databases
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Local secrets & configuration
+*.local.json
+secrets.json
+.env
+.env.*
+*.pfx
+*.key
+*.pem
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Temporary / OS files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Node (if front-end tooling is used)
+node_modules/
