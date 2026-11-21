@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "PowerShell(dotnet build:*)",
+      "PowerShell(dotnet test:*)",
+      "PowerShell(dotnet restore:*)",
+      "PowerShell(git status:*)",
+      "PowerShell(git diff:*)",
+      "PowerShell(git log:*)"
+    ],
+    "ask": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "PowerShell(git commit:*)",
+      "PowerShell(git push:*)"
+    ],
+    "deny": [
+      "Read(./**/*.local.json)",
+      "Read(./**/secrets.json)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(cat *.local.json*)",
+      "Bash(cat *secrets.json*)",
+      "Bash(cat *.env*)",
+      "Bash(type *.local.json*)",
+      "Bash(type *secrets.json*)",
+      "PowerShell(Get-Content *.local.json*)",
+      "PowerShell(Get-Content *secrets.json*)",
+      "PowerShell(Get-Content *.env*)",
+      "PowerShell(cat *.local.json*)",
+      "PowerShell(cat *secrets.json*)",
+      "PowerShell(type *.local.json*)",
+      "PowerShell(type *secrets.json*)",
+      "Bash(dotnet user-secrets list*)",
+      "PowerShell(dotnet user-secrets list*)"
+    ]
+  }
+}
